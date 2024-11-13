@@ -1,0 +1,27 @@
+.layout-admin {
+    .logo-text {
+        font-family: 'Arial', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #3a41e2;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 10px 0;
+        padding: 6px 0;
+        user-select: none;
+        cursor: pointer;
+    }
+    .admin-header {
+        background: #ffffff;
+        height: 50px;
+        border-bottom: 1px solid #ebebeb;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px 0 0;
+    }
+    .admin-content {
+        margin: 16px 16px;
+        min-height: 280px;
+    }
+}
